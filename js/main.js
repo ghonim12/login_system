@@ -102,9 +102,9 @@ function login() {
     ) {
       localStorage.setItem("sessionUsername", signUpArray[i].name);
       if (baseURL == "/") {
-        location.replace("https://" + location.hostname + "/home.html");
+        location.replace("https://" + location.hostname + "home.html");
       } else {
-        location.replace(baseURL + "/home.html");
+        location.replace(baseURL + "home.html");
       }
     } else {
       document.getElementById("incorrect").innerHTML =
